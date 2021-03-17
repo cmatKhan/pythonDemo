@@ -6,6 +6,6 @@ setup(name='capitalize',
       version = '1.0',
       # list folders, not files
       packages = ['capitalize','capitalize.test'],
-      scripts = ['capitalize/bin/cap_script.py'],
+      scripts = ['bin/cap_script.py'],
       package_data = {'capitalize': ['data/cap_data.txt']},
       )
